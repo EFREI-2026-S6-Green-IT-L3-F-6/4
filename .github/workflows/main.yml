@@ -1,0 +1,8 @@
+name: Setup Hyperledger Fabric
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Hyperledger Fabric
+        uses: arjundashrath/setup-hlf@v0.0.1
